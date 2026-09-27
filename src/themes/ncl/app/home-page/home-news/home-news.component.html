@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="home-news-content py-4 px-2 py-sm-5 px-sm-0 mt-0 mb-4">
+  <div class="home-news-content px-2 px-sm-0 mt-0 mb-2">
     @if (homeNewsMetadataValue$ | async; as homeNewsMetadataValue) {
     <div class="container">
       <div class="jumbotron jumbotron-fluid">
@@ -8,23 +8,23 @@
     </div>
     }
     @else {
-    <div class="d-flex flex-wrap justify-content-center">
-      <h1 class="display-5">CSIR-NCL Digital Repository</h1>
-      <p class="lead">An institutional repository for the collection, preservation and dissemination of the intellectual
-        output of CSIR-NCL, Pune.</p>
-      <p>
-        The repository contains a growing collection of research articles, conference papers, patents, theses,
-        dissertations,
-        technical reports, and other scholarly works produced by CSIR-NCL researchers. It also includes datasets,
-        software,
-        and other research outputs that support the scientific and technological activities of the institute.
-      </p>
-      <p>
-        The repository is open to all users and provides free access to the deposited materials. It is a valuable
-        resource
-        for researchers, students, and anyone interested in the scientific and technological activities of CSIR-NCL,
-        Pune.
-      </p>
+    <div class="jumbotron jumbotron-fluid shadow mb-5 pb-2 rounded text-center">
+      <div class="d-flex flex-wrap justify-content-center">
+        <h1 class="display-5">CSIR-NCL Digital Repository</h1>
+        <p class="lead">An institutional repository for the collection, preservation and dissemination of the
+          intellectual output of CSIR-NCL, Pune.</p>
+        <p>
+          The repository contains a growing collection of research articles, conference papers, patents, theses,
+          dissertations, technical reports, and other scholarly works produced by CSIR-NCL researchers. It also
+          includes datasets, software, and other research outputs that support the scientific and technological
+          activities of the institute.
+        </p>
+        <p>
+          The repository is open to all users and provides free access to the deposited materials. It is a valuable
+          resource for researchers, students, and anyone interested in the scientific and technological activities
+          of CSIR-NCL, Pune.
+        </p>
+      </div>
     </div>
     }
   </div>

@@ -1,4 +1,5 @@
 {
+
   "401.help": "You're not authorized to access this page. You can use the button below to get back to the home page.",
 
   "401.link.home-page": "Take me to the home page",
@@ -1420,8 +1421,6 @@
   "collection.form.submissionDefinition": "Submission definition",
 
   "collection.form.correctionSubmissionDefinition": "Submission definition for correction request",
-
-
 
   "collection.listelement.badge": "Collection",
 
@@ -3154,7 +3153,6 @@
   "item.page.relationships.RELATION.Project.fundings": "Fundings",
 
   "item.page.relationships.RELATION.Project.researchoutputs": "Publications",
-
 
   "item.page.subject": "Keywords",
 
@@ -6250,7 +6248,7 @@
 
   "thumbnail.person.placeholder": "No Profile Picture Available",
 
-  "title": "DSpace",
+  title: "DSpace",
 
   "vocabulary-treeview.header": "Hierarchical tree view",
 
@@ -7887,4 +7885,20 @@
   "bitstream.related.isReplacedBy": "Is replaced by",
 
   "bitstream.related.deleted": "deleted",
+
+  "browse.comcol.by.advisor": "By Advisor",
+
+  "browse.comcol.by.division": "By Division",
+
+  "browse.comcol.by.university": "By University",
+
+  "browse.comcol.by.type": "By Type",
+
+  "menu.section.browse_global_by_advisor": "Advisor",
+
+  "menu.section.browse_global_by_division": "Division",
+
+  "menu.section.browse_global_by_university": "University",
+
+  "menu.section.browse_global_by_type": "Type",
 }

@@ -16,6 +16,7 @@
       height: 100%;
       object-fit: cover;
       object-position: top;
+      object-position: center;
     }
 
     .container {
@@ -61,6 +62,11 @@
 
   .home-news-content {
     background-color: transparent;
+  }
+
+  .jumbotron {
+    background-color: transparent;
+    padding: 2em;
   }
 
   a {

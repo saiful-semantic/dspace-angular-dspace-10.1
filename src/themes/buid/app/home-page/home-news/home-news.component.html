@@ -1,33 +1,28 @@
 <div class="background-image-container mt-ncs">
   <div class="container">
-    <div class="home-news-content py-4 px-2 py-sm-5 px-sm-0 mt-0 mb-4">
+    <div class="home-news-content pa-2 px-sm-0 mt-0 mb-2">
       @if (homeNewsMetadataValue$ | async; as homeNewsMetadataValue) {
-      <div class="container">
-        <div class="jumbotron jumbotron-fluid">
-          <ds-markdown-viewer [value]="homeNewsMetadataValue"></ds-markdown-viewer>
-        </div>
+      <div class="jumbotron jumbotron-fluid shadow mb-5 pb-2 rounded">
+        <ds-markdown-viewer [value]="homeNewsMetadataValue"></ds-markdown-viewer>
       </div>
       }
       @else {
-      <div class="container">
-        <p>&nbsp;</p>
-        <div class="jumbotron jumbotron-fluid shadow mb-5 pb-2 rounded">
-          <div class="d-flex flex-wrap">
-            <div>
-              <h1 class="display-5">BSpace</h1>
-              <p class="lead">The British University in Dubai (BUiD) Digital Repository</p>
-            </div>
+      <div class="jumbotron jumbotron-fluid shadow mb-5 pb-2 rounded">
+        <div class="d-flex flex-wrap">
+          <div>
+            <h1 class="display-5">BSpace</h1>
+            <p class="lead">The British University in Dubai (BUiD) Digital Repository</p>
           </div>
-          <p>Welcome to BSpace, the online institutional repository of the British University in Dubai.
-            BSpace provides access to the Dissertations, Thesis, Research projects, Faculty publications and archives of
-            BUiD.</p>
-          <p>Submit your dissertation/thesis by <a href="/register">completing the registration</a> using your BUiD
-            email.
-          </p>
-          <p>Review the <a href="https://library.buid.ac.ae/bspacesubmission/overview" target="_blank">submission
-              guidelines</a> before
-            you submit the final version</p>
         </div>
+        <p>Welcome to BSpace, the online institutional repository of the British University in Dubai.
+          BSpace provides access to the Dissertations, Thesis, Research projects, Faculty publications and archives of
+          BUiD.</p>
+        <p>Submit your dissertation/thesis by <a href="/register">completing the registration</a> using your BUiD
+          email.
+        </p>
+        <p>Review the <a href="https://library.buid.ac.ae/bspacesubmission/overview" target="_blank">submission
+            guidelines</a> before
+          you submit the final version</p>
       </div>
       }
     </div>

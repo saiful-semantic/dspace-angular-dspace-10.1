@@ -27,19 +27,33 @@
     </ds-related-items>
     <ds-generic-item-page-field [item]="object" [fields]="['person.jobTitle']" [label]="'person.page.jobtitle'">
     </ds-generic-item-page-field>
+    <!--
     <ds-generic-item-page-field [item]="object" [fields]="['person.familyName']" [label]="'person.page.lastname'">
     </ds-generic-item-page-field>
     <ds-generic-item-page-field [item]="object" [fields]="['person.givenName']" [label]="'person.page.firstname'">
     </ds-generic-item-page-field>
     <ds-generic-item-page-field [item]="object" [fields]="['dc.title']" [label]="'person.page.name'">
     </ds-generic-item-page-field>
+    -->
+    <ds-generic-item-page-field [item]="object" [fields]="['person.affiliation.name']"
+      [label]="'person.page.affiliation.name'">
+    </ds-generic-item-page-field>
+    <ds-generic-item-page-field [item]="object" [fields]="['person.specialty']" [label]="'person.page.specialty'">
+    </ds-generic-item-page-field>
+    <ds-generic-item-page-field [item]="object" [fields]="['person.researchArea']" [label]="'person.page.researchArea'">
+    </ds-generic-item-page-field>
+    <ds-generic-item-page-field [item]="object" [fields]="['person.researchTopics']"
+      [label]="'person.page.researchTopics'">
+    </ds-generic-item-page-field>
     <ds-item-page-orcid-field [item]="object">
     </ds-item-page-orcid-field>
+    <!--
     <div>
       <a class="btn btn-outline-primary" [routerLink]="[itemPageRoute + '/full']" role="button" tabindex="0">
         {{"item.page.link.full" | translate}}
       </a>
     </div>
+    -->
   </div>
   <div class="mt-5 w-100 px-0">
     @if (areAuthorityRelationsEnabled) {

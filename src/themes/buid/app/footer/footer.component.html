@@ -1,5 +1,10 @@
 <footer>
-  @if (showTopFooter) {
+  @if (footerMetadataValue$ | async; as footerMetadataValue) {
+  <div class="top-footer">
+    <ds-markdown-viewer [value]="footerMetadataValue"></ds-markdown-viewer>
+  </div>
+  }
+  @else {
   <div class="top-footer">
     <!-- Grid container -->
     <div class=" container p-4">
@@ -41,11 +46,11 @@
   <div class="bottom-footer p-1 d-flex flex-column flex-md-row justify-content-center align-items-center text-white">
     <div class="content-container align-self-center">
       <p class="m-0">
-        <a class="text-white" href="http://www.dspace.org/" role="link" tabindex="0" target="_blank">{{
-          'footer.link.dspace' | translate}}</a>
+        <a class="text-white" href="https://www.dspace.org/" role="link" tabindex="0">{{ 'footer.link.dspace' |
+          translate}}</a>
         {{ 'footer.copyright' | translate:{year: dateObj | date:'y'} }}
-        <a class="text-white" href="https://www.lyrasis.org/" role="link" tabindex="0" target="_blank">{{
-          'footer.link.lyrasis' | translate}}</a>
+        <a class="text-white" href="https://www.lyrasis.org/" role="link" tabindex="0">{{ 'footer.link.lyrasis' |
+          translate}}</a>
       </p>
       <ul class="footer-info list-unstyled d-flex justify-content-center mb-0">
         @if (showCookieSettings) {

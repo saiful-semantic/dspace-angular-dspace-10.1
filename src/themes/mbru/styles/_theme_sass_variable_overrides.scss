@@ -68,7 +68,8 @@ $min-contrast-ratio: 2.06 !default;
 
 $body-color: #343a40;       // As Bootstrap $gray-800
 
-$link-color: #1e6f90;       // Blue green, as DSpace $info
+// $link-color: #1e6f90;       // Blue green, as DSpace $info
+$link-color: $blue;
 $link-decoration: none;
 $link-hover-color: darken($link-color, 15%);
 $link-hover-decoration: underline;

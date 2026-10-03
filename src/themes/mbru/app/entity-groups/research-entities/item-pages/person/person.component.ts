@@ -1,6 +1,6 @@
 import { AsyncPipe } from '@angular/common';
 import { Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
+// import { RouterLink } from '@angular/router';
 import { Context } from '@dspace/core/shared/context.model';
 import { ViewMode } from '@dspace/core/shared/view-mode.model';
 import { TranslateModule } from '@ngx-translate/core';
@@ -33,7 +33,7 @@ import { listableObjectComponent } from '../../../../../../../app/shared/object-
     ItemPageOrcidFieldComponent,
     MetadataFieldWrapperComponent,
     RelatedItemsComponent,
-    RouterLink,
+    // RouterLink,
     TabbedRelatedEntitiesSearchComponent,
     ThemedItemPageTitleFieldComponent,
     ThemedResultsBackButtonComponent,

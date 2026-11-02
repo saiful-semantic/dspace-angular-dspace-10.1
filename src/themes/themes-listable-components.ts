@@ -1,4 +1,5 @@
 // import { LISTABLE_COMPONENTS as CUSTOM_LISTABLE_COMPONENTS } from './custom/lazy-listable-components';
+import { LISTABLE_COMPONENTS as BUID_LISTABLE_COMPONENTS } from './buid/lazy-listable-components';
 import { LISTABLE_COMPONENTS as DSPACE_LISTABLE_COMPONENTS } from './dspace/lazy-listable-components';
 
 /**
@@ -9,5 +10,6 @@ import { LISTABLE_COMPONENTS as DSPACE_LISTABLE_COMPONENTS } from './dspace/lazy
  */
 export const THEME_LISTABLE_COMPONENTS = [
   // ...CUSTOM_LISTABLE_COMPONENTS,
+  ...BUID_LISTABLE_COMPONENTS,
   ...DSPACE_LISTABLE_COMPONENTS,
 ];

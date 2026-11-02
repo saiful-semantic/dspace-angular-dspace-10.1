@@ -1,0 +1,13 @@
+@if (badges$ | async; as badges) {
+@if (badges.length > 0) {
+<div class="usage-statistics-badges" data-test="usage-statistics-badges">
+  @for (badge of badges; track badge.labelKey) {
+  <span class="badge rounded-pill border usage-statistics-badge">
+    <i class="fas {{ badge.iconClass }}" aria-hidden="true"></i>
+    <span class="usage-statistics-badge-label">{{ badge.labelKey | translate }}:&nbsp;</span>
+    <span class="usage-statistics-badge-value">{{ badge.views | number }}</span>
+  </span>
+  }
+</div>
+}
+}

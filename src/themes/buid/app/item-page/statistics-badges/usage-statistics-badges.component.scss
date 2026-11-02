@@ -1,0 +1,25 @@
+.usage-statistics-badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+
+  .usage-statistics-badge {
+    background-color: rgba(var(--bs-success-rgb), 0.1);
+    color: var(--bs-body-color);
+    --bs-badge-padding-x: 0.8em;
+    --bs-badge-padding-y: 0.9em;
+    --bs-badge-font-size: 0.85em;
+
+    i {
+      color: var(--bs-primary);
+      margin-right: 0.4rem;
+    }
+
+    .usage-statistics-badge-value {
+      font-weight: 600;
+      margin-right: 0.25rem;
+    }
+  }
+}

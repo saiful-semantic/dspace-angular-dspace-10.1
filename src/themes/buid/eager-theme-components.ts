@@ -5,6 +5,9 @@ import { HeaderNavbarWrapperComponent } from './app/header-nav-wrapper/header-na
 import { HomeNewsComponent } from './app/home-page/home-news/home-news.component';
 import { NavbarComponent } from './app/navbar/navbar.component';
 import { LoginPageComponent } from './app/login-page/login-page.component';
+import { PublicationComponent } from './app/item-page/simple/item-types/publication/publication.component';
+import { UntypedItemComponent } from './app/item-page/simple/item-types/untyped-item/untyped-item.component';
+import { UsageStatisticsBadgesComponent } from './app/item-page/statistics-badges/usage-statistics-badges.component';
 import { ThumbnailComponent } from './app/thumbnail/thumbnail.component';
 
 export const COMPONENTS = [
@@ -14,5 +17,8 @@ export const COMPONENTS = [
   HeaderNavbarWrapperComponent,
   NavbarComponent,
   LoginPageComponent,
+  UntypedItemComponent,
+  PublicationComponent,
+  UsageStatisticsBadgesComponent,
   ThumbnailComponent
 ];

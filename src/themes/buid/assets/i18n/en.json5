@@ -1,4 +1,6 @@
 {
+  "statistics.table.title.TotalVisits": "Total Visits",
+  "statistics.table.title.TotalDownloads": "Total Downloads",
   "dso-selector.set-scope.community.button": "Search all of BSpace",
   "home.top-level-communities.head": "Communities in BSpace",
   "info.feedback.info": "Thanks for sharing your feedback about the BSpace system. Your comments are appreciated!",
